@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homework 11</title>
-</head>
-<body>
-<button type="button" data-action="start">Start</button>
-<button type="button" data-action="stop">Stop</button>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 11</title>
+  </head>
+  <body>
+    <h1 class="title">Countdown timer</h1>
+    <div class="submit-form">
+      <div class="input-area">
+        <p class="input-label">Please input target date</p>
+        <input class="date-input" type="date" />
+      </div>
+
+      <div class="btn-wrap">
+        <button id="startBtn" type="button" class="timer-btn">
+          Start timer
+        </button>
+        <button id="stopBtn" type="button" class="timer-btn">Stop timer</button>
+        <button id="resetBtn" type="button" class="timer-btn">Reset</button>
+      </div>
+    </div>
+
+    <div class="timer" id="timer-1">
+      <div class="field">
+        <span class="value" data-value="days">00</span>
+        <span class="label">Days</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="mins">00</span>
+        <span class="label">Minutes</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="secs">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+  </body>
 </html>

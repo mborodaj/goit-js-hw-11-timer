@@ -2,3 +2,71 @@ body {
   background: black;
   color: wheat;
 }
+
+.title {
+  text-align: center;
+}
+
+.input-label {
+  margin: 0 auto;
+}
+
+.timer {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 2px solid wheat;
+  border-radius: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-wrap {
+  margin: 20px auto;
+}
+
+.timer-btn {
+  padding: 10px;
+  width: 100px;
+
+  background-color: black;
+  border: 1px solid wheat;
+  border-radius: 30px;
+  color: antiquewhite;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.timer-btn:hover {
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: black;
+  outline: none;
+}
+
+.active-btn {
+  background-color: wheat;
+  color: black;
+}
+
+.value {
+  font-size: xx-large;
+}
